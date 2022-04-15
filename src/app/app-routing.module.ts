@@ -8,7 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 const routes: Routes = [
   {
     path: '',
-    component: DashboardComponent,
+    component: NavbarComponent,
 
   },
   {
@@ -21,11 +21,16 @@ const routes: Routes = [
     component: MenuComponent,
 
   },
-  // {
-  //   path: 'dashboard',
-  //   component: DashboardComponent,
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
 
-  // },
+  },
+   {
+    path: 'productlist',
+    component: DashboardComponent,
+
+  }
 ];
 
 @NgModule({

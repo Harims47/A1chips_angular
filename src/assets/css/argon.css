@@ -25792,6 +25792,17 @@ td {
   bottom: 0;
   right: 0;
 }
+.fas{
+  font-size: xx-large;
+  text-align: center;
+  width: 2rem;
+  padding: 0.5rem;
+  color: #42469d;
+  background-color: #fff;
+  border-radius: 2rem;
+  bottom: 0;
+  right: 0;
+}
 
 button:active {
   outline: none;
