@@ -4,6 +4,7 @@ import { CategoryComponent } from './category/category.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProductlistComponent } from './productlist/productlist.component';
 
 const routes: Routes = [
   {
@@ -12,7 +13,7 @@ const routes: Routes = [
 
   },
   {
-    path: 'category',
+    path: 'Order',
     component: CategoryComponent,
 
   },
@@ -28,7 +29,7 @@ const routes: Routes = [
   },
    {
     path: 'productlist',
-    component: DashboardComponent,
+    component: ProductlistComponent,
 
   }
 ];

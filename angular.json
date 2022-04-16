@@ -30,9 +30,12 @@
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css",
               "src/assets/css/argon.css",
+              "src/assets/css/argon.min.css",
         
             "src/assets/vendor/nucleo/css/nucleo.css",
-           "src/assets/vendor/font-awesome/css/font-awesome.min.css"
+           "src/assets/vendor/font-awesome/css/font-awesome.min.css",
+           "src/assets/fonts/nucleo/nucleoicons.css",
+           "src/assets/fonts/nucleo/nucleosvg.css"
             ],
             "scripts": [
              
